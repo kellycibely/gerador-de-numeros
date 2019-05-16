@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Gerador de números</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+</head>
+<body>
+    
+    
+    <div class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <div class="title">
+                        Gerador de números para tabela
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <main>
+        
+        <div class="container">
+             <h1> Antes de criar uma nova tabela atualizei a página <button type="submit" class="button is-primary" id="atualizar">Atualizar Página</button></h1>   
+            <div class="control text">
+                <p>Digite o número inicial</p>
+                <input type="text" class="input" placeholder="Digite o numero inicial aqui" id="numero_inicial">
+            </div>
+
+            <div class="control text">
+                <p>Digite o número Final</p>
+                <input type="text" class="input" placeholder="Digite o número final aqui" id="numero_final">
+            </div>
+
+            <div class="control text">
+                <button class="button is-primary" type="submit" id="botao_resultado">Fazer Lista</button>
+            </div>
+
+            <strong>Resultado</strong>
+            <p id="contador"></p>
+            <div class="table is-fullwidth" id="resultado">O resultado vai aparecer aqui</div>
+            <textarea  id="resultado_novo" ></textarea>
+            <div class="control">
+                <button type="submit" id="copiar" class="button is-primary">Copiar Numeros</button>
+            </div>
+
+        </div>
+    </main>
+    
+</body>
+
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,11 @@
+main {
+    margin: 30px;
+}
+
+.text {
+    padding: 10px;
+}
+
+#resultado_novo{
+    display: none;
+}

@@ -1,11 +1,3 @@
-// ids que vou usar
-
-// numero_inicial
-//numero_final
-//botao_resultado
-//resultado
-
-
 document.getElementById("botao_resultado").onclick = function () {
     var num_inicial = parseFloat(document.getElementById("numero_inicial").value);
     var num_final = parseFloat(document.getElementById("numero_final").value);
